@@ -1,9 +1,17 @@
 body{
-
+	color: #212121;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
 }
 h1,h2,h3,h4,h5,h6{}
 p{}
-a{}
+a{
+	color: #ff4081;
+}
+a:active,a:hover,a:focus{
+	color: #212121;
+}
 ol,ul{
 	margin: 0;
 	padding: 0;
@@ -41,7 +49,9 @@ li{}
 
 .news-link{
 	color:#3f51b5;
+	display:block;
 	font-size: 24px;
+	margin-bottom: 10px;
 }
 
 .news-meta-item{
